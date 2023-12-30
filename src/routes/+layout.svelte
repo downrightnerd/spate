@@ -1,3 +1,8 @@
+/** @type {import('@sveltejs/adapter-vercel').Config} */
+export const config = {
+	runtime: 'nodejs18.x'
+};
+
 <div class="container">
 	<header class="header">
 		<a class="header__title" href="/">spate</a>
