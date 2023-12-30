@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Card from '/Users/shin/sanity/app/src/components/ArtCard.svelte';
+	import Card from '/src/components/ArtCard.svelte';
 	import type { PageData } from '../$types';
 
 	export let data: PageData;
