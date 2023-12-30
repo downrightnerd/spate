@@ -15,11 +15,13 @@
 			<h3 class="card__title">
 				{post.title}
 			</h3>
-			<img
-				class="card__cover"
-				src={urlFor(post.mainImage).width(500).height(500).url()}
-				alt="Cover image for {post.title}"
-			/>
+			{#if post.mainImage}
+				<img
+					class="card__cover"
+					src={urlFor(post.mainImage).width(500).height(500).url()}
+					alt="Cover image for {post.title}"
+				/>
+			{/if}
 			<p class="card__excerpt">{post.excerpt}</p>
 		</a>
 	</div>
