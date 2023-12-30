@@ -1,9 +1,7 @@
 import { getPosts } from '$lib/utils/sanity';
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
-export const config = {
-	runtime: 'edge',
-  };
+
 
 export const load = (async () => {
 	const posts = await getPosts();
