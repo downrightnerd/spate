@@ -1,5 +1,5 @@
 [build.environment]
   base = "./"
    command = "npm run build"
-    publish = "build/"
+    publish = "./"
     functions = "functions/"
