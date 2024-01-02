@@ -1,6 +1,6 @@
 <div class="container">
 	<header class="header">
-		<a class="header__title" href="/"><img src="/src/img/spate2.png" /></a>
+		<a class="header__title" href="/"><img src="./img/spate2.png" alt="" /></a>
 		<ul>
 			<li><a href="/">ALL</a></li>
 			<li><a href="/post-art">ART</a></li>
