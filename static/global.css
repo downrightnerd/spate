@@ -90,7 +90,7 @@ body {
 }
 
 .post .post__content {
-	font-family: Noto Sans KR;
+	font-family: helvetica;
 	font-size: 20px;
 	line-height: var(--line-height-6);
 	letter-spacing: -0.02em;
@@ -111,7 +111,8 @@ body {
 }
 
 .post .post__title {
-	font-family: Noto Sans KR;
+	padding-block: 10px;
+		font-family: helvetica;
 	font-size: 28px;
 	text-align:center;
 	margin: var(--space-4) 0;
@@ -119,7 +120,7 @@ body {
 }
 
 .post .post__excerpt {
-	font-family: Noto Sans KR;
+	font-family: helvetica;
 	font-size: 20px;
 	line-height: var(--line-height-4);
 	margin-top: 0;
@@ -183,13 +184,14 @@ main {
 }
 
 
-.header li a, .header a {font-size:14px; font-weight: 500;text-decoration:none; color:black; 	font-family: noto sans kr;
+.header li a, .header a {font-size:16px; font-weight: 500;text-decoration:none; color:black; 	font-family: helvetica;
 letter-spacing:0.05em;}
-.header ul li {list-style:none;float:left; padding:0; margin:15px;}
+.header ul li {list-style:none;float:left; padding:0; margin-block-start: 15px; margin-right:15px;}
 .header ul {margin:0; padding:0;}
+.header__desc {width: 360px;margin-block: 15px;}
 .header {
 	display: flex;
-	align-items:center;
+	align-items:start;
 	flex-direction:column;
 	justify-content:center;
 	z-index: 10;
@@ -205,11 +207,11 @@ letter-spacing:0.05em;}
 letter-spacing:-0.03em;
 }
 .header__title img {
-	width: 80px;
+	width: 120px;
 }
 .footer {
 	position: fixed;
-	bottom:10px;
+	bottom:0px;
 	right:10px;
 	display: flex;
 	justify-content:space-between;
@@ -218,7 +220,7 @@ letter-spacing:-0.03em;
 
 .footer .footer__text {
 	font-weight:normal;
-	font-family:noto sans kr;
+	font-family:helvetica;
 	font-size: 14px;
 	line-height: var(--line-height-1);
 	display: flex;
@@ -376,8 +378,8 @@ letter-spacing:-0.03em;
 }
 
 .card .card__title {
-	font-family: noto sans kr;
-	font-size: 14px;
+	font-family: helvetica;
+	font-size: 16px;
 	text-align:left;
 	line-height: var(--line-height-6);
 	letter-spacing:0.025em;
@@ -387,8 +389,8 @@ letter-spacing:-0.03em;
 
 .card .card__excerpt {
 	text-align:left;
-	font-family: noto sans kr;
-	font-size: 14px;
+	font-family: helvetica;
+	font-size: 16px;
 	line-height: var(--line-height-1);
 	
 	font-weight:normal;
@@ -398,8 +400,8 @@ letter-spacing:-0.03em;
 .card .card__date {
 	font-weight: normal;
 	text-align:left;
-	font-family: noto sans kr;
-	font-size: 14px;
+	font-family: helvetica;
+	font-size: 16px;
 	margin-top: calc(var(----space-4) + 7);
 	margin-bottom:12px;
 	line-height: var(--line-height-1);
@@ -448,13 +450,14 @@ letter-spacing:-0.03em;
 
 
 @media (max-width: 768px) {
-
+   .post .post__title{	border-top: 1px dotted black;
+	border-left:1px dotted black;}
 	td.card__excerpt{display:none;}
 	.post .post__excerpt {margin-top:10px; font-size:20px;}
 .post .post__content {padding:0 10px; margin-top: 10px;}
 .card .card__title {
-	font-family: noto sans kr;
-	font-size: 12px;
+	font-family: helvetica;
+	font-size: 16px;
 	text-align:left;
 	line-height: var(--line-height-6);
 	letter-spacing:0.025em;
@@ -464,8 +467,8 @@ letter-spacing:-0.03em;
 
 .card .card__excerpt {
 	text-align:left;
-	font-family: noto sans kr;
-	font-size: 12px;
+	font-family: helvetica;
+	font-size: 16px;
 	line-height: var(--line-height-1);
 	
 	font-weight:normal;
@@ -475,8 +478,8 @@ letter-spacing:-0.03em;
 .card .card__date {
 	font-weight: normal;
 	text-align:left;
-	font-family: noto sans kr;
-	font-size: 12px;
+	font-family: helvetica;
+	font-size: 16px;
 	margin-top: calc(var(----space-4) + 7);
 	margin-bottom:12px;
 	line-height: var(--line-height-1);

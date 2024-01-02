@@ -6,6 +6,12 @@
 				alt=""
 			/></a
 		>
+		<span class="header__desc"
+			>spate is a magazine with a specific philosophical view on the contemporary, the view which
+			addresses space-time we are inhabiting as not the final version of it, but as a uneven field
+			of intersecting powers.</span
+		>
+
 		<ul>
 			<li><a href="/">ALL</a></li>
 			<li><a href="/post-art">ART</a></li>
