@@ -1,6 +1,11 @@
 <div class="container">
 	<header class="header">
-		<a class="header__title" href="/"><img src="src/img/spate2.png" alt="" /></a>
+		<a class="header__title" href="/"
+			><img
+				src="https://imagedelivery.net/pQ5_KrQ_ZK0A2TNBmk_ZnA/f9e54e72-e002-4b76-7521-af3cd4b05300/public"
+				alt=""
+			/></a
+		>
 		<ul>
 			<li><a href="/">ALL</a></li>
 			<li><a href="/post-art">ART</a></li>
