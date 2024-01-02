@@ -10,6 +10,7 @@
 	<div class="post__container">
 		<h1 class="post__title">{data.title}</h1>
 		<p class="post__excerpt">{data.excerpt}</p>
+
 		{#if data.mainImage}
 			<img
 				class="post__cover"
@@ -18,7 +19,12 @@
 			/>
 		{/if}
 		<div class="post__content">
-			<PortableText value={data.body} />
+			<PortableText
+				value={data.body}
+				components={{
+					types: {}
+				}}
+			/>
 		</div>
 	</div>
 </section>

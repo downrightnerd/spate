@@ -48,6 +48,7 @@ export interface Post {
 	excerpt?: string;
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
+	myTags: string;
 }
 
 export interface Art {
@@ -58,4 +59,5 @@ export interface Art {
 	excerpt?: string;
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
+	myTags: string;
 }

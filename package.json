@@ -12,13 +12,16 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
+		"@babel/runtime": "^7.23.7",
 		"@sanity/client": "^6.0.0",
 		"@sanity/image-url": "^1.0.2",
 		"eslint-plugin-svelte": "^2.35.1",
-		"groq": "^3.8.1"
+		"groq": "^3.8.1",
+		"typesense": "^1.7.2",
+		"typesense-instantsearch-adapter": "^2.7.1"
 	},
 	"devDependencies": {
-		"@portabletext/svelte": "^2.1.3",
+		"@portabletext/svelte": "^2.1.5",
 		"@portabletext/types": "^2.0.7",
 		"@sanity/types": "^3.17.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -36,6 +39,7 @@
 		"prettier-plugin-svelte": "^2.10.1",
 		"svelte": "^4.0.0",
 		"svelte-check": "^3.5.2",
+		"svelte-paginate": "^0.1.0",
 		"tslib": "^2.6.2",
 		"typescript": "^5.2.2",
 		"vite": "^5.0.0"
