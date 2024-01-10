@@ -16,32 +16,32 @@ export const client = createClient({
 	apiVersion: '2023-03-20' // date of setup
 });
 
-export async function getPosts(): Promise<Post[]> {
+export async function getPosts(): Promise<chapterOne[]> {
 	return await client.fetch(
-		groq`*[_type in ["post", "art"] && defined(slug.current)] | order(_createdAt desc)`
+		groq`*[_type in ["chapterOne"] && defined(slug.current)] | order(_createdAt desc)`
 	);
 }
 
-export async function getPost(slug: string): Promise<Post> {
-	return await client.fetch(groq`*[_type in ["post", "art"] && slug.current == $slug][0]`, {
+export async function getPost(slug: string): Promise<chapterOne> {
+	return await client.fetch(groq`*[_type in ["chapterOne"] && slug.current == $slug][0]`, {
 		slug
 	});
 }
 
-export async function getArts(): Promise<Art[]> {
+export async function getArts(): Promise<chapterTwo[]> {
 	return await client.fetch(
-		groq`*[_type == "art" && defined(slug.current)] | order(_createdAt desc)`
+		groq`*[_type == "chapterTwo" && defined(slug.current)] | order(_createdAt desc)`
 	);
 }
 
-export async function getArt(slug: string): Promise<Art> {
-	return await client.fetch(groq`*[_type == "art" && slug.current == $slug][0]`, {
+export async function getArt(slug: string): Promise<chapterTwo> {
+	return await client.fetch(groq`*[_type == "chapterTwo" && slug.current == $slug][0]`, {
 		slug
 	});
 }
 
-export interface Post {
-	_type: 'post';
+export interface chapterOne {
+	_type: 'chapterOne';
 	_createdAt: string;
 	title?: string;
 	slug: Slug;
@@ -51,8 +51,8 @@ export interface Post {
 	myTags: string;
 }
 
-export interface Art {
-	_type: 'art';
+export interface chapterTwo {
+	_type: 'chapterTwo';
 	_createdAt: string;
 	title?: string;
 	slug: Slug;

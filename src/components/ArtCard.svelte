@@ -1,15 +1,15 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import { urlFor } from '$lib/utils/image';
-	import type { Art } from '$lib/utils/sanity';
+	import type { chapterTwo } from '$lib/utils/sanity';
 
-	export let art: Art;
+	export let chapterTwo: chapterTwo;
 </script>
 
 <div class="card">
-	<a class="card__link" href={`/post/${art.slug.current}`}>
+	<a class="card__link" href={`/post/${chapterTwo.slug.current}`}>
 		<div class="card__container">
-				{art.title}
+			{chapterTwo.title}
 		</div>
 	</a>
 </div>
