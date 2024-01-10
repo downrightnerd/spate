@@ -1,6 +1,6 @@
 <div class="container">
 	<header class="header">
-		<a class="header__title" href="/">ㅁ</a>
+		<a class="header__title" href="/">&#40; &#41;</a>
 		<a class="author" href="/author">나하늘</a>
 
 		<ul>
