@@ -6,16 +6,10 @@
 	export let art: Art;
 </script>
 
-<table class="card">
+<div class="card">
 	<a class="card__link" href={`/post/${art.slug.current}`}>
-		<tr class="card__container">
-			<td on:mouseenter={() => {}} class="card__title">
+		<div class="card__container">
 				{art.title}
-			</td>
-			<td class="card__excerpt">{art.excerpt}</td>
-			<td class="card__date">
-				{formatDate(art._createdAt)}
-			</td>
-		</tr>
+		</div>
 	</a>
-</table>
+</div>
