@@ -2,15 +2,15 @@
 	import Tooltip from './Tooltip.svelte';
 	import { formatDate } from '$lib/utils';
 	import { urlFor } from '$lib/utils/image';
-	import type { Post } from '$lib/utils/sanity';
+	import type { chapterOne } from '$lib/utils/sanity';
 
-	export let post: Post;
+	export let chapterOne: chapterOne;
 </script>
 
 <div class="card">
-	<a class="card__link" href={`/post/${post.slug.current}`}>
+	<a class="card__link" href={`/post/${chapterOne.slug.current}`}>
 		<div class="card__container">
-				{post.title}
+				{chapterOne.title}
 		</div>
 	</a>
 </div>
