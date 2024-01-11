@@ -6,9 +6,9 @@
 </script>
 
 <section style="margin-top:50px;">
-	{#if data.arts.length}
-		{#each data.arts as art}
-			<Card {art} />
+	{#if data.posts.length}
+		{#each data.posts as chapterTwo}
+			<Card {chapterTwo} />
 		{/each}
 	{/if}
 </section>

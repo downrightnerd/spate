@@ -245,9 +245,7 @@ letter-spacing:0.03em;
 		margin-bottom:20px;
 	}
 
-	.header .header__title {
-		
-	}
+	
 
 	.footer {
 		margin: var(--space-3) 0;
@@ -432,8 +430,7 @@ letter-spacing:0.03em;
 		margin-top: 0;
 	}
 
-	.card:last-child {
-	}
+	
 }
 
 

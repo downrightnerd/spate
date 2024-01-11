@@ -5,8 +5,8 @@
 </script>
 
 <section style="margin-top:50px;">
-	{#each data.posts as post}
-		<Card {post} />
+	{#each data.posts as chapterOne}
+		<Card {chapterOne} />
 	{/each}
 </section>
 
