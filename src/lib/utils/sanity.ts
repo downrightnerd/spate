@@ -1,6 +1,6 @@
 import type { PortableTextBlock } from '@portabletext/types';
 import { createClient } from '@sanity/client';
-import type { ImageAsset, Slug } from '@sanity/types';
+import type { Image, ImageAsset, ImageUrlAutoMode, Slug } from '@sanity/types';
 import groq from 'groq';
 
 import { PUBLIC_SANITY_DATASET, PUBLIC_SANITY_PROJECT_ID } from '$env/static/public';
@@ -60,4 +60,5 @@ export interface chapterTwo {
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
 	myTags: string;
+	image?:ImageUrlAutoMode;
 }

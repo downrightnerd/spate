@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { PortableText } from '@portabletext/svelte';
-	import { urlFor } from '$lib/utils/image';
 	import type { PageData } from './$types';
+	import Image from '/src/customComponents/Image.svelte';
 
 	export let data: PageData;
 </script>
@@ -14,7 +14,7 @@
 			<PortableText
 				value={data.body}
 				components={{
-					types: {}
+					types: { image : Image  }
 				}}
 			/>
 		</div>

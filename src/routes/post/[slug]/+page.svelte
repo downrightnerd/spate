@@ -2,7 +2,6 @@
 	import { PortableText } from '@portabletext/svelte';
 	import { urlFor } from '$lib/utils/image';
 	import type { PageData } from './$types';
-
 	export let data: PageData;
 </script>
 
