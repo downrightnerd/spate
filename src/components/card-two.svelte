@@ -7,7 +7,7 @@
 </script>
 
 <div class="card">
-	<a class="card__link" href={`/post/${chapterTwo.slug.current}`}>
+	<a class="card__link" href={`/post-two/${chapterTwo.slug.current}`}>
 		<div class="card__container">
 			{chapterTwo.title}
 		</div>
