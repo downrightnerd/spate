@@ -92,7 +92,7 @@ body {
 .post .post__content {
 	font-family: noto sans kr;
 	font-size: 14px;
-	line-height: var(--line-height-4);
+	line-height: 14px;
 	letter-spacing: -0.02em;
 	margin-top: var(--space-6);
 

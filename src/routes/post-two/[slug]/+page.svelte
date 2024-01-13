@@ -25,7 +25,9 @@
 				value={data.body}
 				components={{
 					types: { image: Image },
-					marks: { footnote: Footnote }
+					marks: {
+						footnote: Footnote
+					}
 				}}
 				context={{
 					// Pass these footnotes inside the context
@@ -35,15 +37,14 @@
 		</div>
 	</div>
 </section>
+
 <ol>
 	{#each footnotes as note}
 		<li id="note-{note._key}">
 			<PortableText
 				value={note.note}
 				components={{
-					marks: {
-						link: Link
-					}
+					marks: { link: Link }
 				}}
 			/>
 			<a href="#src-{note._key}">👆</a>

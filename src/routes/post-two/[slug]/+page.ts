@@ -10,3 +10,4 @@ export const load = (async ({ params }) => {
 
 	error(404, 'Not found');
 }) satisfies PageLoad;
+

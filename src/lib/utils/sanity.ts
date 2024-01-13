@@ -60,5 +60,4 @@ export interface chapterTwo {
 	mainImage?: ImageAsset;
 	body: PortableTextBlock[];
 	myTags: string;
-	
 }

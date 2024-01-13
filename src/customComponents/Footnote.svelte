@@ -1,9 +1,10 @@
 <script lang="ts">
+	import type { InputValue } from '$lib/ptTypes';
 	import type { MarkComponentProps } from '@portabletext/svelte';
 
 	interface FootnoteProps {
 		_key: string;
-		note: PortableTextBlocks;
+		note: InputValue;
 	}
 
 	export let portableText: MarkComponentProps<
