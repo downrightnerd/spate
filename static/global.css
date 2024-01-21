@@ -420,7 +420,7 @@ letter-spacing:0.03em;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
-.comments li {text-align:center; padding: 10px 0;}
+.comments li {text-align:center; padding: 20px 0;}
 .input {text-align:center;}
 .list button {padding:0;}
 @media (min-width: 575px) {
