@@ -8,7 +8,7 @@
 
 			<li><a href="/">1장</a></li>
 			<li><a href="/chapter-two">2장</a></li>
-			<li><a href="/info">서지</a></li>
+			<li><a href="/info">추천의 말</a></li>
 		</ul>
 	</header>
 	<main>

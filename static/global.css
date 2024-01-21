@@ -421,6 +421,8 @@ letter-spacing:0.03em;
 	border-bottom-right-radius: 3px;
 }
 
+.todos {text-align:center;}
+.list button {padding:0;}
 @media (min-width: 575px) {
 	.card {
 		border-bottom: none;
