@@ -32,7 +32,7 @@ await deleteDoc(doc(db, 'todos', id))
 <ul class="comments">
 {#if snap}
 {#each snap as snapshot (snapshot.data().Id) }
-<li>{snapshot.data().todoText} <button on:click={() => handleClick(snapshot.data().Id)}>지우기</button></li>
+<li>{snapshot.data().todoText} <button style="display:none;" on:click={() => handleClick(snapshot.data().Id)}>지우기</button></li>
 {/each}
 {/if}
 </ul>
