@@ -421,8 +421,7 @@ letter-spacing:0.03em;
 	border-bottom-right-radius: 3px;
 }
 .comments li {text-align:center; padding: 20px 0;}
-.input {text-align:center;}
-.list button {padding:0;}
+.inputs {text-align:center;}
 @media (min-width: 575px) {
 	.card {
 		border-bottom: none;

@@ -25,7 +25,7 @@ await deleteDoc(doc(db, 'todos', id))
 }
 </script>
 
-<form class="input"on:submit={handleSubmit}>
+<form class="inputs" on:submit={handleSubmit}>
   <input class="input" type="text" placeholder="추천의 말" bind:value={input}/>
     <button type="submit">남기기</button>
 </form>
