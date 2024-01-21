@@ -16,6 +16,7 @@
 		"@sanity/client": "^6.0.0",
 		"@sanity/image-url": "^1.0.2",
 		"eslint-plugin-svelte": "^2.35.1",
+		"firebase": "^10.7.2",
 		"groq": "^3.8.1",
 		"typesense": "^1.7.2",
 		"typesense-instantsearch-adapter": "^2.7.1"
